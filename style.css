@@ -1,0 +1,158 @@
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+li {
+    list-style: none;
+    justify-content: center;
+    margin: auto 1%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration-line: underline;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 1%;
+    font-size: .9rem;
+}
+
+
+.dots-container:hover {
+    transition: .2s;
+    background-color: rgba(179, 153, 153, 0.1);
+    border-radius: 50%;
+}
+
+.dots {
+    height: 20px;
+    width: 20px;
+}
+
+.user-picture {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+
+.user-picture:hover {
+    transition: .2s;
+    border: 2px solid rgba(68, 68, 68, 0.1);
+    border-radius: 50%;
+}
+
+.google-container {
+    margin: 8% 39% 1% 39%;
+}
+
+.google {
+    width: 100%;
+}
+
+.search {
+    border: 1px solid rgba(68, 68, 68, 0.2);
+    width: 50%;
+    height: 50px;
+    border-radius: 35px;
+    margin: 2% auto;
+    padding: 1% 1.2%;
+    display: flex;
+}
+
+.search:hover {
+    transition: .1s;
+    border: 1px solid rgba(68, 68, 68, 0.1);
+    -webkit-box-shadow: 0px 0px 5px 1px rgba(68,68,68,0.2); 
+    box-shadow: 0px 0px 5px 1px rgba(68,68,68,0.2);
+}
+
+.search-icon {
+    margin: auto 0;
+    width: 20px;
+    height: 20px;
+    margin-right: 2%;
+}
+
+.search-input-container {
+    width: 87%;
+    margin-right: 2%;
+}
+
+.search-input {
+    height: 100%;
+    border: none;
+    width: 100%;
+    outline: none;
+}
+
+.search-mic {
+    height: 25px;
+    width: 25px;
+}
+
+.main-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin: 2% 35%;
+}
+
+.main-button {
+    background: #f8f9fa;
+    border-radius: 5px;
+    padding: 3% 5%;
+}
+
+.main-button-input {
+    border: none;
+    background: none;
+    font-size: 0.9em;
+}
+
+.main-button:hover {
+    transition: .1s;
+    -webkit-box-shadow: 0px 0px 5px 1px rgba(68,68,68,0.1); 
+    box-shadow: 0px 0px 5px 1px rgba(68,68,68,0.2);
+}
+
+footer {
+    color: #70757a;
+    display: flex;
+    background: #f2f2f2;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    align-items: center;
+    font-size: .9em;
+    border-top: 1px solid #dadce0;
+    justify-content: space-between;
+}
+
+.footer-text1 {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    padding-left: 30px;
+}
+
+.footer-text2 {
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+    padding-right: 30px;
+}
+
+.footer-text2-a {
+    margin-left: 2%;
+}
